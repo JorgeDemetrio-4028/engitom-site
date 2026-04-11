@@ -169,14 +169,12 @@ section {
 }
 
 .hero h1 {
-  font-family: 'Barlow Condensed', Impact, sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: clamp(3.5rem, 7vw, 6rem);
   line-height: 1.05;
   color: var(--white);
   letter-spacing: 1px;
   margin-bottom: 1.5rem;
-  text-transform: uppercase;
-  font-weight: 700;
 }
 
 .hero h1 em {
@@ -297,12 +295,11 @@ section {
 }
 
 .section-title {
-  font-family: 'Barlow Condensed', Impact, sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: clamp(2.2rem, 4vw, 3.2rem);
   line-height: 1.05;
   color: var(--dark);
   letter-spacing: 0.5px;
-  font-weight: 700;
 }
 
 /* ─── SOBRE NÓS ─────────────────────────────── */
@@ -374,12 +371,11 @@ section {
 }
 
 .valor h3 {
-  font-family: 'Barlow Condensed', Impact, sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 1rem;
   letter-spacing: 1px;
   color: var(--dark);
   margin-bottom: 0.4rem;
-  font-weight: 700;
 }
 
 .valor p {
@@ -535,12 +531,11 @@ section {
 }
 
 .servico-card h3 {
-  font-family: 'Barlow Condensed', Impact, sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 1.5rem;
   letter-spacing: 1px;
   color: var(--white);
   margin-bottom: 1rem;
-  font-weight: 700;
 }
 
 .servico-card p {
@@ -783,11 +778,10 @@ section {
 }
 
 .politica-block h3 {
-  font-family: 'Barlow Condensed', Impact, sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 1.5rem;
   color: var(--dark);
   margin-bottom: 1rem;
-  font-weight: 700;
 }
 
 .politica-block p {
