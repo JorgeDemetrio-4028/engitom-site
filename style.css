@@ -51,7 +51,7 @@ nav {
 }
 
 .nav-logo {
-  font-family: 'Oswald', Impact, sans-serif;
+  font-family: 'Barlow Condensed', Impact, sans-serif;
   font-size: 1.7rem;
   font-weight: 600;
   letter-spacing: 2px;
@@ -129,10 +129,6 @@ section {
   position: absolute;
   top: 0; right: 0;
   width: 55%; height: 100%;
-  background-image: url('hero.jpg.png');
-  background-size: cover;
-  background-position: center;
-  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
 }
 
 .hero-grid-bg {
@@ -173,14 +169,14 @@ section {
 }
 
 .hero h1 {
-  font-family: 'Oswald', Impact, sans-serif;
+  font-family: 'Barlow Condensed', Impact, sans-serif;
   font-size: clamp(3.5rem, 7vw, 6rem);
   line-height: 1.05;
   color: var(--white);
   letter-spacing: 1px;
   margin-bottom: 1.5rem;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .hero h1 em {
@@ -255,7 +251,7 @@ section {
 }
 
 .stat-number {
-  font-family: 'Oswald', Impact, sans-serif;
+  font-family: 'Barlow Condensed', Impact, sans-serif;
   font-size: 2.8rem;
   color: white;
   line-height: 1;
@@ -301,11 +297,12 @@ section {
 }
 
 .section-title {
-  font-family: 'Oswald', Impact, sans-serif;
+  font-family: 'Barlow Condensed', Impact, sans-serif;
   font-size: clamp(2.2rem, 4vw, 3.2rem);
   line-height: 1.05;
   color: var(--dark);
   letter-spacing: 0.5px;
+  font-weight: 700;
 }
 
 /* ─── SOBRE NÓS ─────────────────────────────── */
@@ -377,11 +374,12 @@ section {
 }
 
 .valor h3 {
-  font-family: 'Oswald', Impact, sans-serif;
+  font-family: 'Barlow Condensed', Impact, sans-serif;
   font-size: 1rem;
   letter-spacing: 1px;
   color: var(--dark);
   margin-bottom: 0.4rem;
+  font-weight: 700;
 }
 
 .valor p {
@@ -434,7 +432,7 @@ section {
   background: var(--yellow);
   color: var(--dark);
   padding: 1.2rem 1.5rem;
-  font-family: 'Oswald', Impact, sans-serif;
+  font-family: 'Barlow Condensed', Impact, sans-serif;
   font-size: 1rem;
   letter-spacing: 1px;
   line-height: 1.3;
@@ -509,7 +507,7 @@ section {
 }
 
 .servico-num {
-  font-family: 'Oswald', Impact, sans-serif;
+  font-family: 'Barlow Condensed', Impact, sans-serif;
   font-size: 4rem;
   color: rgba(255, 255, 255, 0.04);
   position: absolute;
@@ -537,11 +535,12 @@ section {
 }
 
 .servico-card h3 {
-  font-family: 'Oswald', Impact, sans-serif;
+  font-family: 'Barlow Condensed', Impact, sans-serif;
   font-size: 1.5rem;
   letter-spacing: 1px;
   color: var(--white);
   margin-bottom: 1rem;
+  font-weight: 700;
 }
 
 .servico-card p {
@@ -608,7 +607,7 @@ section {
 }
 
 .cliente-name {
-  font-family: 'Oswald', Impact, sans-serif;
+  font-family: 'Barlow Condensed', Impact, sans-serif;
   font-size: 1.2rem;
   letter-spacing: 2px;
   color: var(--dark);
@@ -784,10 +783,11 @@ section {
 }
 
 .politica-block h3 {
-  font-family: 'Oswald', Impact, sans-serif;
+  font-family: 'Barlow Condensed', Impact, sans-serif;
   font-size: 1.5rem;
   color: var(--dark);
   margin-bottom: 1rem;
+  font-weight: 700;
 }
 
 .politica-block p {
@@ -809,7 +809,7 @@ footer {
 }
 
 .footer-logo {
-  font-family: 'Oswald', Impact, sans-serif;
+  font-family: 'Barlow Condensed', Impact, sans-serif;
   font-size: 1.5rem;
   letter-spacing: 2px;
   color: var(--white);
