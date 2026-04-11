@@ -851,6 +851,15 @@ footer {
   .hero {
     padding: 1.5rem;
     padding-top: 80px;
+    flex-direction: column;
+  }
+
+  .hero img {
+    position: static;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin-top: 2rem;
   }
 
   .hero::before {
