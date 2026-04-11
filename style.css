@@ -53,6 +53,7 @@ nav {
 .nav-logo {
   font-family: 'Oswald', Impact, sans-serif;
   font-size: 1.7rem;
+  font-weight: 600;
   letter-spacing: 2px;
   color: var(--white);
   text-decoration: none;
@@ -172,7 +173,7 @@ section {
 .hero h1 {
   font-family: 'Oswald', Impact, sans-serif;
   font-size: clamp(3.5rem, 7vw, 6rem);
-  line-height: 0.95;
+  line-height: 1.05;
   color: var(--white);
   letter-spacing: 1px;
   margin-bottom: 1.5rem;
