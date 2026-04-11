@@ -51,7 +51,7 @@ nav {
 }
 
 .nav-logo {
-  font-family: 'Bebas Neue', Impact, sans-serif;
+  font-family: 'Oswald', Impact, sans-serif;
   font-size: 1.7rem;
   letter-spacing: 2px;
   color: var(--white);
@@ -170,7 +170,7 @@ section {
 }
 
 .hero h1 {
-  font-family: 'Bebas Neue', Impact, sans-serif;
+  font-family: 'Oswald', Impact, sans-serif;
   font-size: clamp(3.5rem, 7vw, 6rem);
   line-height: 0.95;
   color: var(--white);
@@ -250,7 +250,7 @@ section {
 }
 
 .stat-number {
-  font-family: 'Bebas Neue', Impact, sans-serif;
+  font-family: 'Oswald', Impact, sans-serif;
   font-size: 2.8rem;
   color: white;
   line-height: 1;
@@ -296,7 +296,7 @@ section {
 }
 
 .section-title {
-  font-family: 'Bebas Neue', Impact, sans-serif;
+  font-family: 'Oswald', Impact, sans-serif;
   font-size: clamp(2.2rem, 4vw, 3.2rem);
   line-height: 1.05;
   color: var(--dark);
@@ -372,7 +372,7 @@ section {
 }
 
 .valor h3 {
-  font-family: 'Bebas Neue', Impact, sans-serif;
+  font-family: 'Oswald', Impact, sans-serif;
   font-size: 1rem;
   letter-spacing: 1px;
   color: var(--dark);
@@ -429,7 +429,7 @@ section {
   background: var(--yellow);
   color: var(--dark);
   padding: 1.2rem 1.5rem;
-  font-family: 'Bebas Neue', Impact, sans-serif;
+  font-family: 'Oswald', Impact, sans-serif;
   font-size: 1rem;
   letter-spacing: 1px;
   line-height: 1.3;
@@ -504,7 +504,7 @@ section {
 }
 
 .servico-num {
-  font-family: 'Bebas Neue', Impact, sans-serif;
+  font-family: 'Oswald', Impact, sans-serif;
   font-size: 4rem;
   color: rgba(255, 255, 255, 0.04);
   position: absolute;
@@ -532,7 +532,7 @@ section {
 }
 
 .servico-card h3 {
-  font-family: 'Bebas Neue', Impact, sans-serif;
+  font-family: 'Oswald', Impact, sans-serif;
   font-size: 1.5rem;
   letter-spacing: 1px;
   color: var(--white);
@@ -603,7 +603,7 @@ section {
 }
 
 .cliente-name {
-  font-family: 'Bebas Neue', Impact, sans-serif;
+  font-family: 'Oswald', Impact, sans-serif;
   font-size: 1.2rem;
   letter-spacing: 2px;
   color: var(--dark);
@@ -772,7 +772,7 @@ footer {
 }
 
 .footer-logo {
-  font-family: 'Bebas Neue', Impact, sans-serif;
+  font-family: 'Oswald', Impact, sans-serif;
   font-size: 1.5rem;
   letter-spacing: 2px;
   color: var(--white);
