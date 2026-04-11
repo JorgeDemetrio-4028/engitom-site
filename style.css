@@ -760,6 +760,38 @@ section {
   gap: 1rem;
 }
 
+/* ─── POLÍTICA ─────────────────────────────── */
+
+.politica {
+  background: var(--white);
+  padding: 5rem 4rem;
+}
+
+.politica-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.politica-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.politica-block h3 {
+  font-family: 'Oswald', Impact, sans-serif;
+  font-size: 1.5rem;
+  color: var(--dark);
+  margin-bottom: 1rem;
+}
+
+.politica-block p {
+  font-family: 'DM Sans', Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--gray);
+}
+
 /* ─── FOOTER ────────────────────────────────── */
 
 footer {
