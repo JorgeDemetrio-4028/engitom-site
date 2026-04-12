@@ -67,7 +67,7 @@ section {
 }
 
 .nav-links a {
-  color: rgba(255, 255, 255, 0.65);
+  color: var(--dark)
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 500;
