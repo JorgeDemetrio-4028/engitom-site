@@ -51,26 +51,13 @@ nav {
 }
 
 .nav-logo {
-  font-family: 'Barlow Condensed', Impact, sans-serif;
-  font-size: 1.7rem;
-  font-weight: 600;
-  letter-spacing: 2px;
-  color: var(--white);
-  text-decoration: none;
-  cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
 .hero,
 section {
   scroll-margin-top: 90px;
-}
-
-.nav-logo:hover {
-  color: var(--yellow-light);
-}
-
-.nav-logo span {
-  color: var(--yellow);
 }
 
 .nav-links {
