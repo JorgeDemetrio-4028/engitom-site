@@ -32,6 +32,99 @@ document.querySelectorAll('a[href^="#"]').forEach((a) => {
   });
 });
 
+// ─── Galeria de projetos com filtros e lightbox ───
+
+const filterButtons = document.querySelectorAll('.filter-btn');
+const galleryItems = Array.from(document.querySelectorAll('.gallery-item'));
+const lightboxOverlay = document.querySelector('.project-lightbox');
+const lightboxImage = document.querySelector('.lightbox-image');
+const lightboxCaption = document.querySelector('.lightbox-caption');
+const lightboxClose = document.querySelector('.lightbox-close');
+const lightboxPrev = document.querySelector('.lightbox-prev');
+const lightboxNext = document.querySelector('.lightbox-next');
+let currentGalleryIndex = 0;
+
+const getVisibleGalleryItems = () => galleryItems.filter((item) => !item.hidden);
+
+filterButtons.forEach((button) => {
+  button.addEventListener('click', () => {
+    filterButtons.forEach((btn) => btn.classList.remove('active'));
+    button.classList.add('active');
+
+    const filter = button.dataset.filter;
+    galleryItems.forEach((item) => {
+      item.hidden = filter !== 'all' && item.dataset.category !== filter;
+    });
+  });
+});
+
+const updateLightbox = () => {
+  const current = galleryItems[currentGalleryIndex];
+  if (!current) {
+    return;
+  }
+
+  const img = current.querySelector('img');
+  lightboxImage.src = img.src;
+  lightboxImage.alt = img.alt || '';
+  lightboxCaption.textContent = current.dataset.caption || '';
+};
+
+const openLightbox = (index) => {
+  currentGalleryIndex = index;
+  updateLightbox();
+  lightboxOverlay.classList.add('active');
+  document.body.style.overflow = 'hidden';
+};
+
+const closeLightbox = () => {
+  lightboxOverlay.classList.remove('active');
+  document.body.style.overflow = '';
+};
+
+const showLightboxItem = (direction) => {
+  const visible = getVisibleGalleryItems();
+  if (!visible.length) {
+    return;
+  }
+
+  const currentVisibleIndex = visible.indexOf(galleryItems[currentGalleryIndex]);
+  const nextVisibleIndex = (currentVisibleIndex + direction + visible.length) % visible.length;
+  const nextItem = visible[nextVisibleIndex];
+  currentGalleryIndex = galleryItems.indexOf(nextItem);
+  updateLightbox();
+};
+
+galleryItems.forEach((item, index) => {
+  item.addEventListener('click', () => openLightbox(index));
+});
+
+lightboxClose?.addEventListener('click', closeLightbox);
+lightboxOverlay?.addEventListener('click', (event) => {
+  if (event.target === lightboxOverlay) {
+    closeLightbox();
+  }
+});
+lightboxNext?.addEventListener('click', () => showLightboxItem(1));
+lightboxPrev?.addEventListener('click', () => showLightboxItem(-1));
+document.addEventListener('keydown', (event) => {
+  if (!lightboxOverlay?.classList.contains('active')) {
+    return;
+  }
+
+  if (event.key === 'Escape') {
+    closeLightbox();
+  }
+
+  if (event.key === 'ArrowRight') {
+    showLightboxItem(1);
+  }
+
+  if (event.key === 'ArrowLeft') {
+    showLightboxItem(-1);
+  }
+});
+
 // ─── Formulário de contacto ───────────────────
 //  Para ativar o envio real de emails, regista-te
 //  em https://formspree.io e substitui o endpoint
