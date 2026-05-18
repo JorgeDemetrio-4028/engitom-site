@@ -8,43 +8,7 @@
   margin: 0;
   padding: 0;
 }
-
-:root {
-  --dark:         #2b2b2b;
-  --mid:          #4a4a4a;
-  --gray:         #6e6e6e;
-  --gray-light:   #a0a0a0;
-  --border:       #d8d8d8;
-  --bg:           #f0f0f0;
-  --bg2:          #e6e6e6;
-  --white:        #ffffff;
-  --yellow:       #f5c400;
-  --yellow-dark:  #d4a800;
-  --yellow-light: #ffd740;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: 'DM Sans', Arial, sans-serif;
-  background: var(--bg);
-  color: var(--dark);
-  overflow-x: hidden;
-}
-
-/* ─── NAVEGAÇÃO ─────────────────────────────── */
-
-nav {
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  z-index: 100;
-  background: rgba(255, 255, 255, 0.97);
-  backdrop-filter: blur(10px);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+/* =============================================
   padding: 0 4rem;
   
   height: 70px;
